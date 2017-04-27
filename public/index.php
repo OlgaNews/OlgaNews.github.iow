@@ -56,11 +56,6 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
-$app->bind('path.public', function() {
-
-    return base_path() . '/';
-
-});
 
 
 
