@@ -1,5 +1,5 @@
 const { mix } = require('laravel-mix');
-
+mix.config.publicDir = '';
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
